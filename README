@@ -1,17 +1,73 @@
-By: Rayaan Arif
-Here's a breakdown of the game:
-Objective: The player's goal is to shoot falling enemy ships using a gunner ship.
-Gameplay:
-The player controls a gunner ship located at the bottom center of the screen, which can be moved horizontally with mouse or touch input.
-The gunner ship is visually represented with a diamond-like image, appear from the top and descend.
-Firing bullets by clicking or touching the screen allows the player to hit these enemy ships.
-Each successful hit increases the player's score by 10.
-The game starts with 3 lives. A life is lost if a enemy ship reaches the bottom of the screen.
-The game ends when all lives are depleted, displaying a "Game Over" message and the final score.
-Players can restart the game at any time using a dedicated button.
-The difficulty increases over time, with circles falling faster and spawning more frequently.
-Visuals & Sound:
-A darkened full-screen background video creates the atmosphere.
-Custom Base64 encoded images are used for the gun and the diamond-like circles.
-The game includes sound effects for shooting, hitting circles, and a game over state.
-Technology: The game is developed using HTML, CSS, and JavaScript, featuring dynamic element creation and event handling for a responsive user experience across devices.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Description</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1 {
+            color: #0056b3;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        strong {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Game Description</h1>
+    <p>By: Rayaan Arif</p>
+
+    <h2>Here's a breakdown of the game:</h2>
+
+    <h3>Objective:</h3>
+    <p>The player's goal is to shoot falling enemy ships using a gunner ship.</p>
+
+    <h3>Gameplay:</h3>
+    <ul>
+        <li>The player controls a gunner ship located at the bottom center of the screen, which can be moved horizontally with mouse or touch input.</li>
+        <li>The gunner ship is visually represented with a diamond-like image, appear from the top and descend.</li>
+        <li>Firing bullets by clicking or touching the screen allows the player to hit these enemy ships.</li>
+        <li>Each successful hit increases the player's score by 10.</li>
+        <li>The game starts with 3 lives. A life is lost if an enemy ship reaches the bottom of the screen.</li>
+        <li>The game ends when all lives are depleted, displaying a "Game Over" message and the final score.</li>
+        <li>Players can restart the game at any time using a dedicated button.</li>
+        <li>The difficulty increases over time, with circles falling faster and spawning more frequently.</li>
+    </ul>
+
+    <h3>Visuals & Sound:</h3>
+    <ul>
+        <li>A darkened full-screen background video creates the atmosphere.</li>
+        <li>Custom Base64 encoded images are used for the gun and the diamond-like gunner ship.</li>
+        <li>The game includes sound effects for shooting, hitting circles, and a game over state.</li>
+    </ul>
+
+    <h3>Technology:</h3>
+    <p>The game is developed using HTML, CSS, and JavaScript, featuring dynamic element creation and event handling for a responsive user experience across devices.</p>
+
+    <h3>Updates:</h3>
+    <p>I plan to add a UI with many levels like this index.html file but with designs & shapes.</p>
+
+</body>
+</html>
