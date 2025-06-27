@@ -1,1 +1,18 @@
-Game by Rayaan Arif
+
+Here's a breakdown of the game:
+Objective: The player's goal is to shoot falling enemy ships using a gunner ship.
+
+Gameplay:
+The player controls a gunner ship located at the bottom center of the screen, which can be moved horizontally with mouse or touch input.
+The gunner ship is visually represented with a diamond-like image, appear from the top and descend.
+Firing bullets by clicking or touching the screen allows the player to hit these enemy ships.
+Each successful hit increases the player's score by 10.
+The game starts with 3 lives. A life is lost if a enemy ship reaches the bottom of the screen.
+The game ends when all lives are depleted, displaying a "Game Over" message and the final score.
+Players can restart the game at any time using a dedicated button.
+The difficulty increases over time, with circles falling faster and spawning more frequently.
+Visuals & Sound:
+A darkened full-screen background video creates the atmosphere.
+Custom Base64 encoded images are used for the gun and the diamond-like circles.
+The game includes sound effects for shooting, hitting circles, and a game over state.
+Technology: The game is developed using HTML, CSS, and JavaScript, featuring dynamic element creation and event handling for a responsive user experience across devices.
